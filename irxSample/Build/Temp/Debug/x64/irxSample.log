@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  irxSample.cpp
+  LocalRc.cpp
+  PNGUtil.cpp
+  SampleCmd.cpp
+  SampleModule.cpp
+  코드를 생성하고 있습니다...
+     .\Build\bin\Debug\x64\irxSample.lib 라이브러리 및 .\Build\bin\Debug\x64\irxSample.exp 개체를 생성하고 있습니다.
+  irxSample.vcxproj -> C:\Users\LEEGEONWOO\Dev\mCAD\iplatform\Source_3rd\irxSample\irxSample\.\Build\bin\Debug\x64\irxSample.irx

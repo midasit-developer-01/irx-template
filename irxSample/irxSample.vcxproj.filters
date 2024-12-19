@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..Generated">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="..Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{753d092a-f607-4426-9d12-73b74b5ac756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..Module">
+      <UniqueIdentifier>{13f125ac-1840-432d-b720-d3c0fac9404c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a4e38d1f-1927-4dca-b3a9-1a8a0fba3565}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="irxSample.cpp">
+      <Filter>..Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>..Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleCmd.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleModule.cpp">
+      <Filter>..Module</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalRc.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PNGUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="irxSample.def">
+      <Filter>..Generated</Filter>
+    </None>
+    <None Include="res\irxSample.rc2">
+      <Filter>..Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>..Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="irxSample.h">
+      <Filter>..Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>..Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>..Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>..Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleCmd.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleModule.h">
+      <Filter>..Module</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalRC.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PNGUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="irxSample.rc">
+      <Filter>..Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
